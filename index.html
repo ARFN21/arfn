@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan Sederhana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <div class="logo">📚</div>
+      <div>
+        <p class="eyebrow">Perpustakaan</p>
+        <h1>Modern Minimal</h1>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="ghost" id="toggle-theme" aria-label="Toggle tema">🌙</button>
+      <button class="primary" id="reset-filters">Reset</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="field">
+        <label for="search">Cari buku</label>
+        <input id="search" type="search" placeholder="Cari judul atau penulis" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="genre">Genre</label>
+        <select id="genre">
+          <option value="">Semua genre</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="availability">Ketersediaan</label>
+        <select id="availability">
+          <option value="">Semua</option>
+          <option value="available">Tersedia</option>
+          <option value="checked-out">Dipinjam</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="sort">Urutkan</label>
+        <select id="sort">
+          <option value="title">Judul A-Z</option>
+          <option value="author">Penulis A-Z</option>
+          <option value="year-desc">Terbaru</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="chips" id="favorites-info" hidden>
+      <div class="chip chip-strong">Favorit</div>
+      <p>Menampilkan koleksi buku favorit Anda.</p>
+      <button class="ghost" id="clear-favorites">Hapus favorit</button>
+    </section>
+
+    <section class="grid" id="book-grid" aria-live="polite"></section>
+
+    <section class="panel">
+      <div>
+        <h2>Favorit</h2>
+        <p>Beri tanda ⭐ pada buku untuk memasukkannya ke daftar favorit lokal.</p>
+      </div>
+      <button class="secondary" id="toggle-favorites">Lihat favorit</button>
+    </section>
+  </main>
+
+  <template id="book-card-template">
+    <article class="card">
+      <div class="card-top">
+        <div>
+          <p class="eyebrow">Ketersediaan</p>
+          <span class="pill status"></span>
+        </div>
+        <button class="ghost favorite" aria-label="Tambah ke favorit">☆</button>
+      </div>
+      <h3 class="title"></h3>
+      <p class="author"></p>
+      <div class="meta">
+        <span class="pill genre"></span>
+        <span class="pill year"></span>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
