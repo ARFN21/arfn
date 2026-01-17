@@ -1,0 +1,51 @@
+id,title,author,year,genre,status
+1,The Silent Library,Ana Mendez,2010,Mystery,available
+2,Crimson Horizon,Leo Hartman,2018,Thriller,available
+3,Algorithmic Tales,Chandra Wijaya,2020,Technology,available
+4,Stars Above Us,Evelyn Moore,2015,Romance,borrowed
+5,Quantum Steps,Richard Evans,2019,Science,available
+6,Sands of Java,Dewi Santoso,2016,Historical,available
+7,Hidden Syntax,Farah Karim,2021,Technology,available
+8,The Painted Door,Rafael Ortega,2014,Drama,available
+9,Whispering Pines,Lydia Harper,2017,Fantasy,available
+10,Digital Footprints,Amir Rahman,2022,Technology,available
+11,The Last Orchid,Maya Lestari,2013,Romance,borrowed
+12,Beyond the Reef,Tomas Delgado,2011,Adventure,available
+13,Iron Lanterns,Nadya Putri,2018,Fantasy,available
+14,Marble City,Jonathan Lee,2021,Science Fiction,available
+15,Glass Bridges,Sienna Clarke,2012,Drama,available
+16,Northern Trails,Samuel Davis,2016,Adventure,available
+17,Celestial Mechanics,Lena Fischer,2019,Science,available
+18,Paper Boats,Andi Prasetyo,2014,Drama,available
+19,Midnight Trains,Clara Rossi,2017,Mystery,borrowed
+20,Code & Canvas,Putri Mahendra,2023,Technology,available
+21,The Bamboo Road,Susilo Hartanto,2015,Historical,available
+22,Opal Skies,Isabel Cruz,2020,Fantasy,available
+23,Harvest Moon,Aaron Blake,2011,Romance,available
+24,Sound of Circuits,Damar Yusuf,2019,Technology,available
+25,Ember Lines,Helena Brooks,2018,Thriller,available
+26,Deep Current,Ilham Nugraha,2022,Adventure,available
+27,Serenity Station,Laura Bennett,2016,Science Fiction,available
+28,Whittled Words,Ahmad Fauzi,2013,Poetry,available
+29,Hidden Mangroves,Rina Setiawan,2015,Environment,available
+30,Granite Echoes,Victor Hammond,2017,Thriller,available
+31,Autumn Atlas,Yohannes Siregar,2014,Travel,available
+32,Velvet Archives,Celine Dupont,2021,Historical,available
+33,Timeless Threads,Marissa Wong,2019,Art,available
+34,Firefly Theory,Siti Harini,2020,Science,available
+35,The Coral Diary,Andre Saputra,2018,Environment,available
+36,Metro Lines,Julian Park,2016,Poetry,available
+37,Sunset Algorithms,Nurul Huda,2023,Technology,available
+38,Whale Song,Laras Wibisono,2015,Environment,available
+39,Paper Planets,Iskandar Malik,2012,Science Fiction,available
+40,Midori Garden,Ayumi Kato,2014,Art,available
+41,Crossed Paths,Arief Budi,2017,Drama,available
+42,Harbor Lights,Emily Carter,2020,Romance,available
+43,The Jade Notebook,Sarah Tan,2019,Historical,borrowed
+44,Blue Circuit,Adit Pranoto,2021,Technology,available
+45,Crate Dwellers,Fiona McKay,2018,Thriller,available
+46,Perennial Code,Bayu Rachman,2022,Technology,available
+47,The Compass Reed,Kirana Lestari,2016,Adventure,available
+48,Cobalt Dreams,Rachel Lim,2013,Science Fiction,available
+49,Forest Ledger,Riko Armand,2015,Environment,available
+50,The Lighthouse Log,Margaret Hayes,2011,Mystery,available
