@@ -10,19 +10,30 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="dashboard-shell">
-    <section class="hero-card" aria-labelledby="dashboard-title">
-      <p class="eyebrow">World Bank Internet Users Indicator</p>
+  <main class="page-shell">
+    <section class="dashboard-card" aria-labelledby="dashboard-title">
+      <div class="badge">World Bank API • IT.NET.USER.ZS</div>
       <h1 id="dashboard-title">Dashboard Prediksi Kesiapan Digital</h1>
       <p class="subtitle">
-        Laporan ini menampilkan hasil pipeline Python untuk data persentase pengguna internet,
-        proses cleansing, dan evaluasi model Decision Tree.
+        Jalankan <strong>proses_worldbank_ml.py</strong> untuk mengambil data pengguna internet,
+        membersihkan data, melatih Decision Tree, dan membuat laporan HTML otomatis.
       </p>
-      <div class="report-actions">
-        <p class="report-status" data-report-status>Jalankan proses_worldbank_ml.py untuk membuat hasil_ml.html.</p>
+
+      <div class="steps" aria-label="Alur proses data">
+        <div class="step"><span>1</span>API World Bank</div>
+        <div class="step"><span>2</span>Data Cleansing</div>
+        <div class="step"><span>3</span>Decision Tree</div>
+        <div class="step"><span>4</span>HTML Report</div>
+      </div>
+
+      <div class="report-toolbar">
+        <p class="report-status" data-report-status>
+          Menunggu file hasil_ml.html. Jalankan script Python jika laporan belum muncul.
+        </p>
         <button class="refresh-button" type="button" data-refresh-report>Refresh Laporan</button>
       </div>
-      <div class="iframe-wrap">
+
+      <div class="report-frame-card">
         <iframe src="hasil_ml.html" title="Laporan hasil machine learning" data-report-frame></iframe>
       </div>
     </section>
