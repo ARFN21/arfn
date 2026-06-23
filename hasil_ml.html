@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #0f172a; background: #ffffff; }
+    .report { padding: 24px; background: linear-gradient(135deg, #eff6ff, #f8fafc); }
+    h2 { margin: 0 0 16px; color: #1e3a8a; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+    .metric { padding: 16px; border: 1px solid #dbeafe; border-radius: 14px; background: #ffffff; }
+    .label { margin: 0 0 8px; color: #64748b; font-size: 13px; font-weight: 700; text-transform: uppercase; }
+    .value { margin: 0; color: #0f172a; font-size: 24px; font-weight: 800; }
+    .source { margin: 18px 0 0; color: #334155; line-height: 1.6; word-break: break-word; }
+  </style>
+</head>
+<body>
+  <section class="report">
+    <h2>Laporan Prediksi Kesiapan Digital</h2>
+    <div class="grid">
+      <article class="metric"><p class="label">Data Mentah</p><p class="value">1625</p></article>
+      <article class="metric"><p class="label">Data Bersih</p><p class="value">1125</p></article>
+      <article class="metric"><p class="label">Data Dihapus</p><p class="value">500</p></article>
+      <article class="metric"><p class="label">Missing Value</p><p class="value">500</p></article>
+      <article class="metric"><p class="label">Mean Value</p><p class="value">36.88</p></article>
+      <article class="metric"><p class="label">Akurasi</p><p class="value">100.00%</p></article>
+    </div>
+    <p class="source"><strong>Sumber data aktif:</strong> Data cadangan demo saat API diblokir</p>
+    <p class="source"><strong>Sumber API utama:</strong> http://api.worldbank.org/v2/country/all/indicator/IT.NET.USER.ZS?format=json&amp;per_page=2000</p>
+  </section>
+</body>
+</html>
