@@ -18,10 +18,15 @@
         Laporan ini menampilkan hasil pipeline Python untuk data persentase pengguna internet,
         proses cleansing, dan evaluasi model Decision Tree.
       </p>
+      <div class="report-actions">
+        <p class="report-status" data-report-status>Jalankan proses_worldbank_ml.py untuk membuat hasil_ml.html.</p>
+        <button class="refresh-button" type="button" data-refresh-report>Refresh Laporan</button>
+      </div>
       <div class="iframe-wrap">
-        <iframe src="hasil_ml.html" title="Laporan hasil machine learning"></iframe>
+        <iframe src="hasil_ml.html" title="Laporan hasil machine learning" data-report-frame></iframe>
       </div>
     </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
